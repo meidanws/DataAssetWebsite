@@ -339,6 +339,16 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 850px) {
+  #hero .carousel-item {
+    width: 100%;
+    background-size:contain;
+    background-image: none;
+    background-repeat:repeat
+  }
+}
+
+
 #hero .carousel-item::before {
   content: '';
   background-color: rgba(21, 27, 26, 0.7);
